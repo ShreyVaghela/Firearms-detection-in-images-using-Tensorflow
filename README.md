@@ -12,7 +12,8 @@ The project detects firearms like pistol in images using Tensorflow. It was made
 
 ### LabelImg
 
-[LabelImg](https://github.com/tzutalin/labelImg) has been used in order to annotate the images. The annotation are saved as XML files in PASCAL VOC format as that used in ImageNet. Satisfying the required dependencies for your respective machines it will pop an interface where you need to select the location of your above downloaded dataset. Figure shows the examples of drawing bounding box and labeling the image.
+[LabelImg](https://github.com/tzutalin/labelImg) has been used in order to annotate the images. The annotation are saved as XML files in PASCAL VOC format as that used in ImageNet. Satisfying the required dependencies for your respective machines it will pop an interface where you need to select the location of your above downloaded dataset. Figure shows the example of drawing bounding box and labeling the image.
+![screenshot 12](https://user-images.githubusercontent.com/20052459/45665781-35309200-bb30-11e8-81e3-4290f5415752.png)
 
 ### XML to CSV and generating tensor records
 
@@ -42,6 +43,9 @@ Generate inference graph by:
 Run the `object_detection_tutorial.ipynb` in the root directory by specifying the path to the `frozen_inference_graph.pb`, `label_map.pbtxt`, `test_images`.
 
 ### Output
+![download 3](https://user-images.githubusercontent.com/20052459/45665884-b0924380-bb30-11e8-99b2-574abbfcbaff.png)
+![download 2](https://user-images.githubusercontent.com/20052459/45665898-c99af480-bb30-11e8-9d5c-8701ee27d891.png)
+![download 1](https://user-images.githubusercontent.com/20052459/45665908-dae40100-bb30-11e8-9576-02afbf1c8928.png)
 
 ### Refernces
 [Tensorflow API](https://github.com/tensorflow/models/tree/master/research/object_detection)
