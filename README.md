@@ -47,6 +47,9 @@ Run the `object_detection_tutorial.ipynb` in the root directory by specifying th
 ![download 2](https://user-images.githubusercontent.com/20052459/45665898-c99af480-bb30-11e8-9d5c-8701ee27d891.png)
 ![download 1](https://user-images.githubusercontent.com/20052459/45665908-dae40100-bb30-11e8-9576-02afbf1c8928.png)
 
+### Future Scope
+Currently, the project only detects pistols in images. Further it can be extended to detect firearms in videos as well as detecting in real time. 
+
 ### Refernces
 [Tensorflow API](https://github.com/tensorflow/models/tree/master/research/object_detection)
 
