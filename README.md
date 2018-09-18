@@ -19,11 +19,11 @@ The project detects firearms like pistol in images using Tensorflow. It was made
 After generating xml file using labelImg we need to convert those files into csv in order to generate tensor records which could be further provided to the network to train the model. Find the xml_to_csv.py and generate_tfrecords.py
 
 ### Train the model
-Run the following command from the root directory. Replace the `faster_rcnn_resnet101.config` with the config file of the pre trained model that you are using for training.
+Run the following command from the root directory. Replace the `pipeline.config` with the config file of the pre trained model that you are using for training.
 `python object_detection/train.py \
         --logtostderr \
         --train_dir=train \
-        --pipeline_config_path=faster_rcnn_resnet101.config`
+        --pipeline_config_path=pipeline.config`
         
 After training move the checkpoints with highest step number to root directory. It should contain 3 files:
 `model.ckpt-STEP_NUMBER.data-00000-of-00001`
