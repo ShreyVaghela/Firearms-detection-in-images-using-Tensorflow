@@ -48,7 +48,7 @@ Run the `object_detection_tutorial.ipynb` in the root directory by specifying th
 ![download 1](https://user-images.githubusercontent.com/20052459/45665908-dae40100-bb30-11e8-9576-02afbf1c8928.png)
 
 ### Future Scope
-Currently, the project only detects pistols in images. Further it can be extended to detect firearms in videos as well as detecting in real time. An alarming system can be made by triggering an e-mail to the owner or nearby police station when a pistol is detected in security cameras.
+Currently, the project only detects pistols in images. Further it can be extended to detect firearms in videos as well as detecting in real time. An alarming system can be made by triggering an action like message to the nearby police station when a pistol is detected in the security cameras.
 
 ### Refernces
 [Tensorflow API](https://github.com/tensorflow/models/tree/master/research/object_detection)
