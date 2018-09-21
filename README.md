@@ -25,7 +25,8 @@ Run the following command from the root directory. Replace the `pipeline.config`
         --logtostderr \
         --train_dir=train \
         --pipeline_config_path=pipeline.config`
-        
+The config file contains the detecion algorithm for object localization and classification. The project uses Single Shot Multibox Detector(SSD) as it quickly does the task in single forward pass. You can use detectors of your choice from [model zoo.](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md)  
+
 After training move the checkpoints with highest step number to root directory. It should contain 3 files:
 `model.ckpt-STEP_NUMBER.data-00000-of-00001`
 `model.ckpt-STEP_NUMBER.index`
