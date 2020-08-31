@@ -51,7 +51,7 @@ Run the `object_detection_tutorial.ipynb` in the root directory by specifying th
 ### Future Scope
 Currently, the project only detects pistols in images. Further it can be extended to detect firearms in videos as well as in real time. An alarming system can be made by triggering an action like message to the nearby police station when a pistol is detected in the security cameras.
 
-### Refernces
+### References
 [Tensorflow API](https://github.com/tensorflow/models/tree/master/research/object_detection)
 
 [Raccoon Detector Dataset](https://github.com/datitran/raccoon_dataset)
